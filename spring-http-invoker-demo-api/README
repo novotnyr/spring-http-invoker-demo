@@ -1,0 +1,8 @@
+This project contains all services and classes
+that are shared both on the server and client side.
+
+Note that `Chocolate` class implements `Food`
+that is returned from `FoodService` methods.
+All classes that are serialized/deserialized
+and transported via wire must be available
+on both client and server side. 
